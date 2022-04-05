@@ -5,6 +5,7 @@
 -IC:\msys64\mingw64\include
 -IC:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed
 -IC:\msys64\mingw64\x86_64-w64-mingw32\include
--ID:\cpp_basics\cpp_basics_udemy\BasicIO
+-IC:\Users\solugate\Desktop\Cpp_Basics\cpp_basics_udemy\BasicIO
+-std=c++17
 -target
 x86_64-pc-windows-gnu
