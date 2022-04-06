@@ -4,7 +4,8 @@
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
   <Project Name="FirstChallenge" Path="FirstChallenge/FirstChallenge.project" Active="No"/>
   <Project Name="BasicIO" Path="BasicIO/BasicIO.project" Active="No"/>
-  <Project Name="Section5_Ex02" Path="Section5_Ex02/Section5_Ex02.project" Active="Yes"/>
+  <Project Name="Section5_Ex02" Path="Section5_Ex02/Section5_Ex02.project" Active="No"/>
+  <Project Name="room_calculator" Path="room_calculator/room_calculator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="FirstChallenge" ConfigName="Debug"/>
       <Project Name="BasicIO" ConfigName="Debug"/>
       <Project Name="Section5_Ex02" ConfigName="Debug"/>
+      <Project Name="room_calculator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="FirstChallenge" ConfigName="Release"/>
       <Project Name="BasicIO" ConfigName="Release"/>
       <Project Name="Section5_Ex02" ConfigName="Release"/>
+      <Project Name="room_calculator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
