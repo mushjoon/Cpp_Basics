@@ -11,6 +11,7 @@ int main()
     int numOfLarges = 0;
     int cost = 0;
     double total = 0.0;
+    double tax = 0.0;
 
     std::cout << "===================================================\n";
     std::cout << "Hello, welcome to Frank's Carpet Cleaning Service\n";
@@ -31,7 +32,7 @@ int main()
     cost = (numOfSmalls * SMALLPRICE) + (numOfLarges * LARGEPRICE);
     std::cout << "Cost = $" << cost << std::endl;
 
-    double tax = cost * TAXRATE;
+    tax = cost * TAXRATE;
     std::cout << "Tax = $" << tax << std::endl;
 
     std::cout << "===================================================\n";
