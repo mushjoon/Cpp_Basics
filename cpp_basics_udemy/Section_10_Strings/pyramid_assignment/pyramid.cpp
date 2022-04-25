@@ -14,18 +14,14 @@ int main(int argc, char const *argv[])
 
     steps = userText.length();
 
-    // cout << "Your string: " << userText << " and the length: " << steps << endl;
+    int space = steps - 1;
 
     for (size_t i = 0; i < steps; i++)
     {
         int count{0};
-        int space = steps - 1;
-        
-        for (int l = space; l > 0; --l)
-        {
-            cout << 'H';
-        }
-        
+
+        cout << string(space, ' ');
+
         for (int j = 0; j < i; j++)
         {
             cout << userText.at(j);
@@ -35,7 +31,7 @@ int main(int argc, char const *argv[])
         {
             cout << userText.at(k);
         }
-        
+        space--;
         cout << endl;
     }
 
